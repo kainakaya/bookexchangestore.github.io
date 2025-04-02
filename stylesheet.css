@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+/*header*/
+.header-wrapper{
+    height: 60px;
+    background-image: linear-gradient(to bottom, #443527 0%, #78614c 100%);
+    padding: 0px 40px; 
+    position: fixed;
+    top:0;
+    z-index: 10;
+    width:100%;
+}
+.header-left{
+    float: left;
+}
+.header-left img{
+    width:50px;
+   padding:10px 0px;
+}
+.header-right{
+    float: right;
+    padding-right: 80px;
+}
+.header-right li{
+    float: left;
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+    padding:20px 0px;
+    font-size: 15px;
+    font-family:"Funnel Display";
+}
+/*section-top*/
+
+/*section-about*/
+.section-about{
+    text-align: center;
+    padding: 40px 40px;
+}
+.about-area h2{
+    font-family: "Funnel Display";
+    font-size: 30px;
+    color:#443527;
+}
+.about-area p{
+    font-family: "Funnel Display";
+    font-size: 20px;
+    color:#443527;
+    padding-bottom: 20px;
+}
+.shop-caption{
+    font-size: 70px; 
+    color:#443527;
+    font-family: "Zen Kurenaido";
+    width: 40%;
+    margin-right: -150px;
+}
+.shop-explanation{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: "Zen Kurenaido";
+    font-size: 20px;   
+    padding-top:20px;
+    display: inline-block;
+    width: 60%;
+}
+span{
+    color:#d36e09;
+}
+.section-rby{
+    display:flex;
+}
+/*section-acsess*/
+.section-acsess{
+    text-align: center;
+    font-family: "Concert One";
+    padding: 40px 0px;
+    color:#443527;
+    background-size: 100%;
+    background-image: linear-gradient(to top, #443527 0%, #9c826b 20%, #ffffff 100%);
+
+}
+.section-acsess h2{
+    font-family: "Funnel Display";
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.about-acsess{
+    margin-top: 30px;
+}
+.about-acsess p{
+    font-family: "Funnel Display";
+    font-size: 20px; 
+}
+.cafeinfo{
+    padding: 10px 30px;
+    background-color: #443527;
+    color: white;
+    border-radius: 5px;
+}
+.googlemap{
+    margin-top: 10px;
+}
+/*section-contact*/
+.section-contact{
+    padding: 40px 0px;  
+}
+.section-contact h2{
+    font-family: "Funnel Display";
+    font-size: 30px;
+    text-align: center;
+    color:#443527;
+}
+/*section-contact-form*/
+.contact-form{
+    color:#443527;
+    font-family:"Concert One";
+}
+.item{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.label{
+    margin-right: 50px;
+    width: 130px;   
+    float: left;
+    color:#443527;
+    font-size: 25px;
+    font-family: "Concert One";
+    white-space: nowrap;
+}
+.inputs {
+    float: left;
+    width: 1000px;   
+}
+input[type="text"],
+input[type="email"]{
+    border: none;
+    padding:10px;   
+    font-size: 15px;
+    background-color: #f0f0f0;
+}
+textarea{
+    border: none;
+    padding:10px;
+    font-size: 15px;
+    height: 160px;
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+.button-area{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: #443527;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="reset"]{
+    background-color: #e4e4e4;
+    color: #443527;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.contact-area{
+  width: 980px;  
+  margin: 0 auto;
+  padding: 60px 0px;
+  box-sizing: border-box;
+}
+
+/*section-thanks*/
+.thanks-body{
+    background-color: #78614c;
+}
+.thank-you-container{
+    font-family: "Concert One";
+    font-size: 20px;
+    text-align: left;
+    color:white;
+    width: 960px;
+    padding: 60px 60px;
+}
+
+/*section-footer*/
+footer{
+    height: 60px;
+    background-image: linear-gradient(to top, #443527 0%, #78614c 100%);
+}
+footer p{
+    padding: 20px 0;
+    font-family: "Fragment Mono";
+    color: white;
+    text-align: center;
+}
+.footer-section img{
+    width:100px;
+}
+/*section-top-return*/
+button{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 20px;
+    bottom: 80px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background: #443527;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    visibility: hidden;
+    transition: .3s;
+  }
+  /* クラス付与時の指定 */
+  .is-active{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  a{ text-decoration:none;
+    color:whtie;  
+}
+a:hover {
+    opacity: 0.8;   
+}
+a:link {
+    color:white;  
+}
+a:active {
+    color:#ffaa00; 
+}
